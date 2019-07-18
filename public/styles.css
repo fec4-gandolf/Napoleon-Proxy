@@ -1,25 +1,27 @@
-#top{
-  display: inline
+ body {
+
+ }
+ 
+ #top{
+  display: flex;
+  margin: 0 0 0 20px;
+  height: 365px;
 }
 
 #image-modal {
-  width: 510px;
-  height: 674px;
-  position: relative;
-  float: left;
+  flex: 0 0 40%;
+  margin: 10px 10px 
 }
 
 #bid-buy {
-  height: 729.97px;
-  width: 484.8883px;
-  position: relative;
-  min-width: 405px;
+  flex: 1;
+  margin: 50px 0 0 80px
 }
 
-/* #alsoviewed {
-
+#alsoviewed {
+  visibility: auto
 }
 
 #ratings_reviews {
-
-} */
+  position: relative
+}
