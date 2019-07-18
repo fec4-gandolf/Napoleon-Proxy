@@ -1,0 +1,25 @@
+#top{
+  display: inline
+}
+
+#image-modal {
+  width: 510px;
+  height: 674px;
+  position: relative;
+  float: left;
+}
+
+#bid-buy {
+  height: 729.97px;
+  width: 484.8883px;
+  position: relative;
+  min-width: 405px;
+}
+
+/* #alsoviewed {
+
+}
+
+#ratings_reviews {
+
+} */
