@@ -1,0 +1,30 @@
+{
+  "name": "napoleon-proxy",
+  "version": "1.0.0",
+  "description": "FEC proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec4-gandolf/Napoleon-Proxy.git"
+  },
+  "author": "Napoleon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fec4-gandolf/Napoleon-Proxy/issues"
+  },
+  "homepage": "https://github.com/fec4-gandolf/Napoleon-Proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^12.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
