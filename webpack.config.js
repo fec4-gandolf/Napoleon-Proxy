@@ -36,7 +36,6 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: __dirname + '/public/build/'
+    path: __dirname + '/public/'
   }
 };
-
